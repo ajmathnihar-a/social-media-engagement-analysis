@@ -54,6 +54,12 @@ The dashboard includes:
 - Platform-level engagement comparison
 
 ## Key Findings
+
+- Instagram recorded the highest engagement among the three platforms, followed by Facebook and Twitter.
+- Video posts generated the highest engagement among the post types, while image posts had the lowest.
+- Positive posts accounted for 46% of all posts.
+- Engagement showed noticeable month-to-month changes, with the largest increase occurring in July.
+
 ## Dashboard Preview
 
 ![Social Media Engagement Dashboard](social_media_engagement_dashboard.png)
@@ -64,3 +70,7 @@ The dashboard includes:
 - `social_media_engagement_analysis.sql` – SQL queries used for analysis
 - `social_media_engagement_dashboard.pbix` – Power BI dashboard
 - `social_media_engagement_dashboard.png` – Dashboard preview
+
+## Conclusion
+
+This project helped me practice the complete data analysis workflow, from cleaning and analyzing data to building a Power BI dashboard. It also helped me understand how social media engagement varies across platforms, post types, and sentiment.
