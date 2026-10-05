@@ -1,4 +1,4 @@
-## Social Media Engagement Analysis
+# Social Media Engagement Analysis
 I analyzed social media post data to understand how engagement varies across platforms, post types, and sentiment.
 The project uses Excel/Power Query for data cleaning, PostgreSQL for analysis, and Power BI for visualization.
 
@@ -38,6 +38,23 @@ I used PostgreSQL to analyze the cleaned data and answer questions related to:
 - Top posts within each platform
 - Posts with engagement above the overall average
 - Monthly engagement trends
+
+### Example SQL Query
+
+The query below identifies the top 3 posts by engagement within each platform.
+
+```sql
+with cte as(
+      select post_id,platform,likes+comments+shares as total_engagement
+      from social_media_engagement)
+
+,ab as(
+      select post_id,platform,total_engagement,dense_rank() over(partition by platform order by total_engagement desc) as rn
+      from cte)
+
+select * from ab
+where rn<=3
+```
 
 ## Power BI Dashboard
 
