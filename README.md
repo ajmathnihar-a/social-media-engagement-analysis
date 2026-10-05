@@ -1,5 +1,5 @@
 ## Social Media Engagement Analysis
-I analyzed social media post data to understand how engagement varies across platforms, post type, sentiment.
+I analyzed social media post data to understand how engagement varies across platforms, post types, and sentiment.
 The project uses Excel/Power Query for data cleaning, PostgreSQL for analysis, and Power BI for visualization.
 
 ## Business Questions
@@ -73,4 +73,4 @@ The dashboard includes:
 
 ## Conclusion
 
-This project helped me practice the complete data analysis workflow, from cleaning and analyzing data to building a Power BI dashboard. It also helped me understand how social media engagement varies across platforms, post types, and sentiment.
+This project gave me practical experience with the data analysis workflow, from cleaning and analyzing data to building a Power BI dashboard. It also helped me understand how social media engagement varies across platforms, post types, and sentiment.
