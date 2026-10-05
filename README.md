@@ -57,3 +57,10 @@ The dashboard includes:
 ## Dashboard Preview
 
 ![Social Media Engagement Dashboard](social_media_engagement_dashboard.png)
+
+## Project Files
+
+- `Social_media_engagement.xlsx` – Raw/cleaned data and Excel work
+- `social_media_engagement_analysis.sql` – SQL queries used for analysis
+- `social_media_engagement_dashboard.pbix` – Power BI dashboard
+- `social_media_engagement_dashboard.png` – Dashboard preview
