@@ -1,4 +1,4 @@
-#Social Media Engagement Analysis
+## Social Media Engagement Analysis
 I analyzed social media post data to understand how engagement varies across platforms, post type, sentiment.
 The project uses Excel/Power Query for data cleaning, PostgreSQL for analysis, and Power BI for visualization.
 
@@ -54,3 +54,6 @@ The dashboard includes:
 - Platform-level engagement comparison
 
 ## Key Findings
+## Dashboard Preview
+
+![Social Media Engagement Dashboard](social_media_engagement_dashboard.png)
